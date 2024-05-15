@@ -1,4 +1,4 @@
-module github.com/minoic/bt-go-sdk
+module github.com/noahlsl/bt
 
 go 1.18
 

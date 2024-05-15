@@ -67,7 +67,7 @@ func TestClient_GetSites(t *testing.T) {
 }
 
 func TestClient_GetSiteDomains(t *testing.T) {
-	r, err := client.GetSiteDomains(4)
+	r, err := client.GetSiteDomains()
 	if err != nil {
 		fmt.Println(err)
 		t.Fail()
