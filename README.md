@@ -2,6 +2,9 @@
 
 参考 https://www.bt.cn/bbs/thread-20376-1-1.html
 
+> Fork 于github.com/minoic/bt-go-sdk
+> 感谢原作者
+
 * 返回 json 自动解析为 struct
 * 保存返回的 cookies 并在之后的请求中使用来提高效率
 * 已基本完成 [api-doc.pdf](api-doc.pdf "api-doc.pdf") 中的所有接口
@@ -12,10 +15,10 @@
 ```go
 package main
 
-import "github.com/minoic/bt-go-sdk"
+import "github.com/noahlsl/bt"
 
 func main() {
-	c:=bt_go_sdk.NewClient("http://localhost:8888","qviqWLiiUB623bfzJqQ37OGUEXwOXtVN")
+	c:=bt.NewClient("http://localhost:8888","qviqWLiiUB623bfzJqQ37OGUEXwOXtVN")
 	ret,err:=c.GetNetWork()
 	if err != nil {
 		// handle error
