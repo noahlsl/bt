@@ -1,4 +1,4 @@
-package bt_go_sdk
+package bt
 
 /*
  *定义请求参数较为复杂的结构体

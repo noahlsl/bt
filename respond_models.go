@@ -1,4 +1,4 @@
-package bt_go_sdk
+package bt
 
 /*
  *定义返回的 json 解析到目标结构体 由 json-to-go 自动生成

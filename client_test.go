@@ -1,4 +1,4 @@
-package bt_go_sdk
+package bt
 
 import (
 	"fmt"
